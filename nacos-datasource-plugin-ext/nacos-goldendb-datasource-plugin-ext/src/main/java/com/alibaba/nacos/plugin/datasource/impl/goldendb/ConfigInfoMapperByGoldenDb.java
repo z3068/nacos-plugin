@@ -14,27 +14,20 @@
  * limitations under the License.
  */
 
-package com.alibaba.nacos.plugin.datasource.impl.dm;
+package com.alibaba.nacos.plugin.datasource.impl.goldendb;
 
 import com.alibaba.nacos.plugin.datasource.constants.DatabaseTypeConstant;
-import com.alibaba.nacos.plugin.datasource.constants.PrimaryKeyConstant;
-import com.alibaba.nacos.plugin.datasource.impl.base.BaseConfigInfoGrayMapper;
+import com.alibaba.nacos.plugin.datasource.impl.base.BaseConfigInfoMapper;
 
 /**
- * The dameng implementation of ConfigInfoAggrMapper.
+ * The GoldenDB implementation of ConfigInfoMapper.
  *
- * @author Xiao Yong
+ * @author nacos
  **/
-
-public class ConfigInfoAggrMapperByDaMeng extends BaseConfigInfoGrayMapper {
+public class ConfigInfoMapperByGoldenDb extends BaseConfigInfoMapper {
 
     @Override
     public String getDataSource() {
-        return DatabaseTypeConstant.DM;
-    }
-
-    @Override
-    public String[] getPrimaryKeyGeneratedKeys() {
-        return PrimaryKeyConstant.UPPER_RETURN_PRIMARY_KEYS;
+        return DatabaseTypeConstant.GOLDENDB;
     }
 }

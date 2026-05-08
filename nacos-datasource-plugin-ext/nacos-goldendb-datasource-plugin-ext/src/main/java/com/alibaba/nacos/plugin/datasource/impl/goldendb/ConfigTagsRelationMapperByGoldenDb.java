@@ -14,22 +14,20 @@
  * limitations under the License.
  */
 
-package com.alibaba.nacos.plugin.datasource.impl.kingbase;
+package com.alibaba.nacos.plugin.datasource.impl.goldendb;
 
 import com.alibaba.nacos.plugin.datasource.constants.DatabaseTypeConstant;
-import com.alibaba.nacos.plugin.datasource.impl.base.BaseConfigInfoGrayMapper;
+import com.alibaba.nacos.plugin.datasource.impl.base.BaseConfigTagsRelationMapper;
 
 /**
- * The kingbase implementation of ConfigInfoAggrMapper.
+ * The GoldenDB implementation of ConfigTagsRelationMapper.
  *
- * @author leon
+ * @author nacos
  **/
-
-public class ConfigInfoAggrMapperByKingbase extends BaseConfigInfoGrayMapper {
+public class ConfigTagsRelationMapperByGoldenDb extends BaseConfigTagsRelationMapper {
 
     @Override
     public String getDataSource() {
-        return DatabaseTypeConstant.KINGBASE;
+        return DatabaseTypeConstant.GOLDENDB;
     }
-
 }

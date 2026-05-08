@@ -20,7 +20,7 @@ import com.alibaba.nacos.plugin.datasource.constants.DatabaseTypeConstant;
 import com.alibaba.nacos.plugin.datasource.impl.base.BaseConfigInfoGrayMapper;
 
 /**
- * The postgresql implementation of ConfigInfoAggrMapper.
+ * The postgresql implementation of ConfigInfoGrayMapper.
  *
  * @author Long Yu
  **/

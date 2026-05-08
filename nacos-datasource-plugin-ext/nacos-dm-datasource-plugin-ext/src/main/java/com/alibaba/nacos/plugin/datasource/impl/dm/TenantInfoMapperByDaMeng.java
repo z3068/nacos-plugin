@@ -21,7 +21,7 @@ import com.alibaba.nacos.plugin.datasource.constants.PrimaryKeyConstant;
 import com.alibaba.nacos.plugin.datasource.impl.base.BaseTenantInfoMapper;
 
 /**
- * The dameng implementation of ConfigInfoAggrMapper.
+ * The dameng implementation of TenantInfoMapper.
  *
  * @author Xiao Yong
  **/

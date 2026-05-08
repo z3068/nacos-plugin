@@ -37,4 +37,10 @@ public class DatabaseTypeConstant {
 
     public static final String KINGBASE = "kingbase";
 
+    public static final String GOLDENDB = "goldendb";
+
+    public static final String VASTBASE = "vastbase";
+
+    public static final String OCEANBASE = "oceanbase";
+
 }

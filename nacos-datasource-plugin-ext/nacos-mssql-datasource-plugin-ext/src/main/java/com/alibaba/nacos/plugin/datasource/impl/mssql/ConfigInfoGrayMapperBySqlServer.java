@@ -20,7 +20,7 @@ import com.alibaba.nacos.plugin.datasource.constants.DatabaseTypeConstant;
 import com.alibaba.nacos.plugin.datasource.impl.base.BaseConfigInfoGrayMapper;
 
 /**
- * The SQL Server implementation of ConfigInfoAggrMapper.
+ * The SQL Server implementation of ConfigInfoGrayMapper.
  *
  * @author QY Li
  **/

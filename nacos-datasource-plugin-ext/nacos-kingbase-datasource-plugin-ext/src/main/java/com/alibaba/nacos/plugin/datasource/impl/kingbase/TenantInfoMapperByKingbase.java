@@ -21,7 +21,7 @@ import com.alibaba.nacos.plugin.datasource.constants.PrimaryKeyConstant;
 import com.alibaba.nacos.plugin.datasource.impl.base.BaseTenantInfoMapper;
 
 /**
- * The kingbase implementation of ConfigInfoAggrMapper.
+ * The kingbase implementation of TenantInfoMapper.
  *
  * @author leon
  **/
